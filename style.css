@@ -22,34 +22,152 @@
 }
 .mt{
     margin-top: 50px;
-    margin-left: 30px;
-    padding-left: 40px;
+    margin-left: 30px; 
 }
 .ml{
     margin-top: 150px;
     margin-left: 20px;
-    padding-left: 40px;
 }
 .button{
     height: 40px;
 }
+
+/* Google play butonu start */
+@font-face{font-family: sans-serif;src:url("https://rawgit.com/jquerycods/Fonts-family/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
+a.btn-apple{
+    color:#fff
+}
+.app-btn{
+    padding:10px 16px;
+    margin:5px;
+    font-size:10px;
+    line-height:1.3333333;
+    border-radius:6px;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    font-weight:500;
+    text-decoration:none;
+    display:inline-block;
+    float: left;
+}
+
+.app-btn:focus,.app-btn:hover{
+    color: rgb(129, 124, 124);;
+    text-decoration:none;
+    outline:0
+}
+.btn-apple{
+    color:#fff;
+    background-color:#111;
+    border-color:#000;
+    padding:5px 20px 20px 50px;
+    position:relative;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-weight:600
+}
+.btn-apple:focus{
+    color:#fff;
+    background:#555;
+    border-color:#000
+}
+.btn-apple:active,.btn-apple:hover{
+    color:#fff;
+    background:#555;
+    border-color:#000;
+}
+.btn-apple:before{
+    content:"";
+    background-image:url(images/iconfinder_152_Google_Play_4519086.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:10px;
+    top:50%;
+    margin-top:-16px
+}
+
+/* appstore butonu start*/
+
 @font-face{font-family:"Product Sans";src:url("https://rawgit.com/jquerycods/Fonts-family/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
-a.btn-apple{color:#fff}
-.app-btn{padding:10px 16px;margin:5px;font-size:10px;line-height:1.3333333;border-radius:6px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;font-weight:500;text-decoration:none;display:inline-block;float: left;}
-.app-btn:active:focus,.app-btn:focus{outline:0}
-.app-btn:focus,.app-btn:hover{color:#333;text-decoration:none;outline:0}
-.app-btn:active{outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
-.btn-apple{color:#fff;background-color:#111;border-color:#000;padding:5px 20px 20px 50px;position:relative;font-family: 'Product Sans', Arial, sans-serif;font-weight:600}
-.btn-apple:focus{color:#fff;background:#555;border-color:#000}
-.btn-apple:active,.btn-apple:hover{color:#fff;background:#555;border-color:#000;}
-.btn-apple:before{content:"";background-image:url(images/iconfinder_152_Google_Play_4519086.png);background-size:cover;background-repeat:no-repeat;width:30px;height:30px;position:absolute;left:10px;top:50%;margin-top:-16px}
-@font-face{font-family:"Product Sans";src:url("https://rawgit.com/jquerycods/Fonts-family/master/product-sans-regular.ttf") format("ttf");font-weight:normal;font-style:normal;}
-a.btn-apple2{color:#fff}
-.app-btn2{padding:10px 16px;margin:5px;font-size:10px;line-height:1.3333333;border-radius:6px;text-align:center;white-space:nowrap;vertical-align:middle;-ms-touch-action:manipulation;touch-action:manipulation;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid transparent;font-weight:500;text-decoration:none;display:inline-block;float: left;}
-.app-btn2:active:focus,.app-btn2:focus{outline:0}
-.app-btn2:focus,.app-btn2:hover{color:#333;text-decoration:none;outline:0}
-.app-btn2:active{outline:0;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,.125);box-shadow:inset 0 3px 5px rgba(0,0,0,.125)}
-.btn-apple2{color:#fff;background-color:#111;border-color:#000;padding:5px 20px 20px 50px;position:relative;font-family: 'Product Sans', Arial, sans-serif;font-weight:600}
-.btn-apple2:focus{color:#fff;background:#555;border-color:#000}
-.btn-apple2:active,.btn-apple2:hover{color:#fff;background:#555;border-color:#000;}
-.btn-apple2:before{content:"";background-image:url(images/photos.png);background-size:cover;background-repeat:no-repeat;width:30px;height:30px;position:absolute;left:10px;top:50%;margin-top:-16px}
+a.btn2-apple{
+    color:#fff
+}
+.app-btn2{
+    padding:10px 16px;
+    margin:5px;
+    font-size:10px;
+    line-height:1.3333333;
+    border-radius:6px;
+    text-align:center;
+    white-space:nowrap;
+    vertical-align:middle;
+    -ms-touch-action:manipulation;
+    touch-action:manipulation;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    border:1px solid transparent;
+    font-weight:500;
+    text-decoration:none;
+    display:inline-block;
+    float: left;
+}
+
+.app-btn2:focus,.app-btn2:hover{
+    color: rgb(129, 124, 124);;
+    text-decoration:none;
+    outline:0
+}
+.btn-apple2{
+    color:#fff;
+    background-color:#111;
+    border-color:#000;
+    padding:5px 20px 20px 50px;
+    position:relative;
+    font-family: 'Product Sans', Arial, sans-serif;
+    font-weight:600
+}
+.btn-apple2:focus{
+    color:#fff;
+    background:#555;
+    border-color:#000
+}
+.btn-apple2:active,.btn-apple2:hover{
+    color:#fff;
+    background:#555;
+    border-color:#000;
+}
+.btn-apple2:before{
+    content:"";
+    background-image:url(images/apple.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:30px;
+    height:30px;
+    position:absolute;
+    left:10px;
+    top:50%;
+    margin-top:-16px
+}
+.app{
+    font-size: 15px;
+}
+.link-margin{
+    margin-bottom: 20px;
+}
+
+
+
